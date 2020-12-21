@@ -10,11 +10,11 @@ We have added support for brackets "(" and ")" which are correctly interpreted i
 The Backus-Naur-Form of our language is given as follows:
 <br/>
 <br/>
-\<statement> ::= <abstract-expression> <add-op> <abstract-expression> ";" | <abstract-expression> ";" | "if" \<bool-expression> "then" \<statement> | "if" \<bool-expression> "then" \<statement> "else" \<statement><br/> 
-\<abstract-expression> ::= <mult-expression> | <bool-expression><br/>
-\<mult-expression> ::= \<expression> <mult-op> \<expression> | \<expression> <br/>
+\<statement> ::= \<abstract-expression> \<add-op> \<abstract-expression> ";" | \<abstract-expression> ";" | "if" \<bool-expression> "then" \<statement> | "if" \<bool-expression> "then" \<statement> "else" \<statement><br/> 
+\<abstract-expression> ::= \<mult-expression> | \<bool-expression><br/>
+\<mult-expression> ::= \<expression> \<mult-op> \<expression> | \<expression> <br/>
 \<expression> ::= "(" \<statement> ")" | \<digit> +<br/>
-\<bool-expression> ::= \<expression> <bool-op> \<expression><br/>
+\<bool-expression> ::= \<expression> \<bool-op> \<expression><br/>
 
 \<add-op> ::= "+" | "-" <br/>
 \<mult-op> ::= "\* | "\\"<br/>
