@@ -17,7 +17,7 @@ The Backus-Naur-Form of our language is given as follows:
 \<bool-expression> ::= \<expression> \<bool-op> \<expression><br/>
 
 \<add-op> ::= "+" | "-" <br/>
-\<mult-op> ::= "\* | "\\"<br/>
+\<mult-op> ::= "\*" | "\\"<br/>
 \<bool-op> ::= "=:=" | "=\\=" | "<=" | ">=" | "<" | ">"  <br/> 
 \<digit\> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" <br/>
 ## License
